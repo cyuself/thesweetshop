@@ -1,6 +1,31 @@
+/* BODY */
+
 body {
   font-family: 'avenir';
 }
+
+.clearfix {
+  overflow: auto;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  min-width: 80%;
+
+}
+
+/* NAVIGATION */
 
 header nav ul {
   display: block;
@@ -33,18 +58,10 @@ header .menu-button {
   height: 200px;
   background: url(https://camo.githubusercontent.com/cb1ea44c676c2e169bb7eddd62edd7dc54049c5a/68747470733a2f2f63646e302e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f656c6974652d666f6f642f3531322f63616e64792d3531322e706e67) no-repeat center;
   /*change this url to the navi bar you want*/
-  
   background-size: 10% 10%;
 }
 
-h1 {
-  text-align: center;
-  padding-top: 20px;
-}
-
-.welcome {
-  text-align: center;
-}
+/* JAVA SCRIPT STUFF */
 
 @media all and (min-width: 768px) {
   header .menu-button {
@@ -58,9 +75,6 @@ h1 {
   }
   .show-menu-button {
     display: inline;
-  }
-  .welcome {
-    display: none;
   }
 }
 
@@ -82,6 +96,7 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
 }
 
 .overlay nav ul {
@@ -109,3 +124,7 @@ h1 {
   width: 200px;
   height: 200px;
 }
+
+
+
+
