@@ -2,7 +2,8 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <script src="javascript.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <img class="banner" src="img/banner.png">
 	<title>the sweet shop</title>
   <header class="clearfix">
   <h1>the sweet shop</h1>
@@ -29,6 +30,8 @@
   </nav>
 </div>
 
+<img class="photo" src="http://farm3.static.flickr.com/2527/3859948806_f768fba7a7.jpg">
+
 <p class='welcome'>welcome to the sweet shop!</p>
 
 <div class="container">
@@ -36,8 +39,20 @@
 
 </div>
 
+<script>
+$('.menu-button').on('click', function() {
+  $(this).removeClass('show-menu-button');
+  $('.overlay').slideDown('slow');
+});
+
+$('.close-button').on('click', function() {
+  $('.overlay').slideUp('slow');
+  $('.menu-button').addClass('show-menu-button');
+});
+
+</script>
 
 </body>
-</html>
+</html> 
 
 
