@@ -12,6 +12,7 @@ body {
   line-height: 1.5;
   font-family: 'avenir';
   background-color: #F2EFE7;
+  overflow: hidden;
 
 }
 
