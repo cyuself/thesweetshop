@@ -16,25 +16,37 @@ body {
 }
 
 .clearfix {
-  overflow: hidden;
+  overflow: auto;
+}
+
+.banner {
+  margin-left: 15%;
+  width: 60%;
+  min-width: 70%;
+}
+
+
+/* Original Header
+
+.logo {
+  margin-left: 45%;
+  margin-top: 30px;
+  width: 150px;
 }
 
 .title {
   background-color: #BE0D13;
+  font-family: 'mission script';
+  font-size: 200%;
   color: white;
-  margin-top: 30px;
-  padding-top: 50px;
-  height: 100px;
+  margin-top: 20px;
+  padding-top: 35px;
+  height: 75px;
   border-top: 5px solid white;
   border-bottom: 5px solid white;
 }
 
-.logo {
-  width: 50%;
-  display: block;
-  position: fixed;
-}
-
+ */
 
 h1 {
   text-align: center;
