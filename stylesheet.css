@@ -55,8 +55,8 @@ body {
 
  */
 
-.title {
-  text-align: center;
+.hello {
+  text-align: left;
 }
 
 /* Container */
@@ -103,7 +103,7 @@ body {
 
 
 
-@media screen and (min-width:200px) {
+@media screen and (min-width:800px) {
   .intro p {
     -webkit-column-count: 2;
     column-count: 2;
