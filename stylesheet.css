@@ -15,12 +15,12 @@ p { font-size: .8rem; }
 
 body { font-family: 'avenir'; }
 
-/* BODY */
+/* BODY 
 
 .pad {
   background-color: white;
   height: 20px;
-}
+} */
 
 .background {
   background-color: #F2EFE7;
@@ -73,6 +73,11 @@ body {
 .hello {
   text-align: center;
   padding: 10px 0px 10px 0px;
+}
+
+hr {
+  width: 60%;
+  min-width: 200px;
 }
 
 /* Container */
@@ -131,7 +136,7 @@ body {
 
 .outro {
   margin-top: 20px;
-  margin-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 
@@ -174,16 +179,22 @@ body {
 */
 
 
-/* Orgininal Photo
 .photo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 70%;
+  width: 100%;
 }
-*/
+
+.copyright {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  text-align: center;
+
+}
 
 /* NAVIGATION */
 

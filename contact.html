@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  
+<!-- <div class="pad"> 
+</div> -->
+<div class="background">
+
+<!-- Header -->
+
+
+<img class="banner" src="img/banner.png" alt="banner">
+
+  <!-- Original Header
+
+  <img class="logo" src="img/logo.png" alt="logo">
+
+  <h1 class="title">Life is Sweet</h1> 
+  -->
+
+  <title>the sweet shop</title>
+  <header class="clearfix">
+
+<!-- Navigation Bar -->
+
+  <nav class='display-menu'>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="menu.html" target="_blank">menu</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </nav>
+  <div class='menu-button'></div>
+  </div>
+</header>
+
+<!-- Body -->
+
+<body>
+
+<div class="background">
+
+<div class="overlay overlay-slidedown">
+  <div class='close-button'></div>
+  <nav>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="menu.html">menu</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div class="container">
+
+  <h1 class="hello">Contact</h1>
+
+  <hr>
+  <br>
+
+  <div class="intro">
+    <p>Fast forward to 2008, the building located at 994 Los Altos Avenue sat empty on the market gathering dust and cobwebs for about 4 years. Stacy, her husband Peter, and their 2 boys, who live close-by, saw an opportunity to create a special place for the neighborhood and the wider community. Their intent was to revamp the old market from the past and create a charming local shop where people could gather and the Los Altos tradition of the little neighborhood shop would live on. The Sweet Shop concept was born.<br> <br></p>
+  </div>
+
+    <img class="photo" src="http://farm3.static.flickr.com/2527/3859948806_f768fba7a7.jpg">
+
+  <div class="outro">
+    <p>Hours of Operation:
+Closed Mondays
+Tuesday - Friday: 08:30am - 05:30pm
+Saturday: 10:30am - 05:00pm
+Sunday: 11:00am - 5:00pm<br> <br></p>
+  </div>
+  </div>
+
+   <p class="copyright"> © 2009 - 2014 Sweet Shop of Los Altos. All rights reserved.</p>
+  <!--
+  <div class="pad"> -->
+</div>
+
+
+<!-- Script Style -->
+
+  <script>
+  $('.menu-button').on('click', function() {
+    $(this).removeClass('show-menu-button');
+    $('.overlay').slideDown('slow');
+  });
+
+  $('.close-button').on('click', function() {
+    $('.overlay').slideUp('slow');
+    $('.menu-button').addClass('show-menu-button');
+  });
+</script>
+
+</div>
+</body>
+
+</html> 
+
+
