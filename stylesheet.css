@@ -4,16 +4,24 @@ html, body, h1, h2, h3 {
   margin: 0;
 }
 
+/*Typography*/
+html {font-size; 10px; }
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.2rem; }
+p { font-size: .8rem; }
+
+body { font-family: 'avenir'; }
 
 /* BODY */
 
 body {
-  font-size: 100%;
   line-height: 1.5;
   font-family: 'avenir';
   background-color: #F2EFE7;
-  overflow: hidden;
+  overflow: auto;
 }
+
+* {box-sizing: border-box; }
 
 .clearfix {
   overflow: auto;
@@ -24,7 +32,6 @@ body {
   width: 60%;
   min-width: 70%;
 }
-
 
 /* Original Header
 
@@ -48,26 +55,93 @@ body {
 
  */
 
-h1 {
+.title {
   text-align: center;
 }
 
-p {
-  text-align: center;
-  width: 100%;
-}
-
-.welcome {
-  text-align: center;
-}
+/* Container */
 
 .container {
-  text-align: center;
-  margin: auto;
-  width: 60%;
-  min-width: 70%;
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
+.intro {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Old Intro 
+.text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  min-width: 80%;
+}
+
+*/
+
+.boxes {
+}
+
+.box {
+  border: none;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.box img {
+  width: 95%;
+}
+
+.outro {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+
+@media screen and (min-width:200px) {
+  .intro p {
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media screen and (min-width:800px) {
+  .outro p {
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media screen and (min-width:600px) {
+  .box {
+    width: 47%;
+    float: left;
+  }
+}
+
+@media screen and (min-width:800px) {
+  .box {
+    width: 33.3333%;
+    float: left;
+  }
+}
+
+/* 4 image column tag 
+@media screen and (min-width:1000px) {
+  .box {
+    width: 25%;
+    float: left;
+  }
+}
+*/
+
+
+/* Orgininal Photo
 .photo {
   display: block;
   margin-left: auto;
@@ -76,6 +150,7 @@ p {
   padding-bottom: 20px;
   width: 70%;
 }
+*/
 
 /* NAVIGATION */
 
@@ -103,7 +178,7 @@ header nav li a {
 
 header .menu-button {
   /*float: right;*/
-  position: absolute;
+  position: fixed;
   top: -50px;
   right: -50px;
   width: 200px;

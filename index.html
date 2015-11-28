@@ -6,6 +6,9 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   
 
+<!-- Header -->
+
+
 <img class="banner" src="img/banner.png" alt="banner">
 
   <!-- Original Header
@@ -18,6 +21,7 @@
   <title>the sweet shop</title>
   <header class="clearfix">
 
+<!-- Navigation Bar -->
 
   <nav class='display-menu'>
     <ul>
@@ -43,26 +47,66 @@
   </nav>
 </div>
 
-<img class="photo" src="http://farm3.static.flickr.com/2527/3859948806_f768fba7a7.jpg">
 
-<p class='welcome'>welcome to the sweet shop!</p>
+<!-- Body -->
+
 
 <div class="container">
-  <p>The Sweet Shop is nestled in a quaint neighborhood of North Los Altos and provides a welcoming atmosphere for family and friends to enjoy our Sweet Treats! Frozen Yogurt, Candy, Espresso Drinks, Baked Goods, Lunch and so much more. We are a community sweet store with Heart and the best part...all proceeds go to local schools!</p>
 
-</div>
+  <h2 class="title">Welcome to the Sweet Shop!</h2>
 
-<script>
-$('.menu-button').on('click', function() {
-  $(this).removeClass('show-menu-button');
-  $('.overlay').slideDown('slow');
-});
+  <div class="intro">
+    <p>The Sweet Shop is nestled in a quaint neighborhood of North Los Altos and provides a welcoming atmosphere for family and friends to enjoy our Sweet Treats! Frozen Yogurt, Candy, Espresso Drinks, Baked Goods, Lunch and so much more. We are a community sweet store with Heart and the best part...all proceeds go to local schools! <br> <br>
 
-$('.close-button').on('click', function() {
-  $('.overlay').slideUp('slow');
-  $('.menu-button').addClass('show-menu-button');
-});
+    Let the Sweet Shop make your next celebration a little Sweeter! Birthday Parties, Baby Showers, Corporate Events, Wedding Favors, Dinner Parties, Holiday Celebrations...the Sweet Shop will make your next occasion a festive one! Let us prepare your favors and sweet treats for your guests. <br> <br>
 
+    Looking for a unique venue to host your next celebration? The Sweet Shop is a perfect setting and available for private and semi-private events.<br> <br>
+
+    For more information or to book your event please contact our Party Planner at sweet-info@sweetshoplosaltos.com.</p>
+  </div>
+
+<div class="boxes clearfix">
+    <div class="box">
+      <img src="http://img1.sunset.timeinc.net/sites/default/files/styles/300x300/public/image/city-guides/san-francisco/san-francisco-bay-area-shops-sweet-shop-m.jpg?itok=EbS6HU6x">
+      <!-- Old Image Tag: http://farm3.static.flickr.com/2527/3859948806_f768fba7a7.jpg
+      old img class="photo"-->
+    </div>
+    <div class="box">
+      <img src="http://dailywaffle.com/wp-content/uploads/2012/09/blackberry-froyo-500.jpg">
+    </div>
+    <div class="box">
+      <img src="http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public/image/recipes/ck/08/05/italian-panini-ck-1734338-x.jpg?itok=v8SkqDcY">
+    </div>
+  </div>
+
+  <div class="outro">
+    <p>Stacy Sullivan has fond memories of visiting a now-defunct neighborhood market during her years as a student at Terman Middle School and Gunn High School in the 1980s. During lunch or after school, she'd hop on the bike path and ride a couple of miles to grab some candy or a drink at Foodland, which was just a few steps up the road from the path's Los Altos entrance. <br> <br>
+
+    Foodland shut down around 2000 and stood vacant for years in the sleepy North Los Altos neighborhood. Sullivan, now a married mother of two who lives two streets away, was walking by one day with her family and thought, "'We should just redo this, do a whole revamp and open this as something really cool for the community, something that could be a hangout.'"<br> <br>
+
+    And thus, Sweet Shop -- a quaint, wood-shingled cottage whose interior walls are lined with candy and painted sayings like, "Life is sweet!" -- was born. Sullivan, a longtime Googler who is now the company's "chief culture officer" (CCO), opened the shop in 2009 hoping it would become a true community gathering space, rather than simply a popular cafe that she would reap the profits from. All Sweet Shop proceeds go to local public schools, including Sullivan's alma maters in Palo Alto and the Los Altos schools her sons attend. The shop makes donations a few times a year, often putting the money toward technology-focused educational efforts.<br> <br>
+
+    "It's a combination of something for everyone," said Sullivan, who loves ice cream and frozen yogurt, but whose husband is a health freak.<br> <br>
+
+    Sweet Shop shows its commitment to the environment with solar panels on the roof and skylights to cut down on electricity use. The shop also uses all biodegradable or recyclable cups, plates, bowls and even plastic bags for the candy. But the real focus here is building community. In addition to supporting schools, Sullivan said the shop participates in local book drives and has been used by neighbors as a stop on treasure hunts.<br> <br>
+
+    "A lot of people ask, 'Is it what hoped it would be?' If you go there on a given day, it's usually buzzing with kids coming on bikes and families doing their daily walks over to the Sweet Shop. It's become a local destination, which is exactly what we wanted."</p>
+  </div>
+  </div>
+
+
+<!-- Script Style -->
+
+  <script>
+  $('.menu-button').on('click', function() {
+    $(this).removeClass('show-menu-button');
+    $('.overlay').slideDown('slow');
+  });
+
+  $('.close-button').on('click', function() {
+    $('.overlay').slideUp('slow');
+    $('.menu-button').addClass('show-menu-button');
+  });
 </script>
 
 </body>
