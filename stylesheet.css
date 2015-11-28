@@ -142,9 +142,8 @@ hr {
 .logos {
   border: none;
   margin: 0 auto;
-  margin-left: 30%;
-  margin-right: 30%;
   margin-bottom: 30px;
+  width: 300px;
 }
 
 .logo img {
