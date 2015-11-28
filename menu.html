@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  
+<div class="pad"> 
+</div>
+<div class="background">
+
+<!-- Header -->
+
+
+<img class="banner" src="img/banner.png" alt="banner">
+
+  <!-- Original Header
+
+  <img class="logo" src="img/logo.png" alt="logo">
+
+  <h1 class="title">Life is Sweet</h1> 
+  -->
+
+  <title>the sweet shop</title>
+  <header class="clearfix">
+
+<!-- Navigation Bar -->
+
+  <nav class='display-menu'>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="menu.html" target="_blank">menu</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </nav>
+  <div class='menu-button'></div>
+  </div>
+</header>
+
+<!-- Body -->
+
+<body>
+
+<div class="background">
+
+<div class="overlay overlay-slidedown">
+  <div class='close-button'></div>
+  <nav>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="menu.html">menu</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div class="container">
+
+  <h1 class="hello">Menu</h1>
+    <p class="description">The Sweet Shop has sourced and continues to locate as many local and organic products as possible for you to get your sweet treats. Scroll down to check out our menu!</p>
+
+
+<div class="boxes clearfix">
+    <div class="box">
+      <img src=" http://batesnutfarm.biz/images/F51582290.jpg">
+      <!-- Old Image Tag: http://farm3.static.flickr.com/2527/3859948806_f768fba7a7.jpg
+      old img class="photo"-->
+    </div>
+    <div class="box">
+      <img src="http://dailywaffle.com/wp-content/uploads/2012/09/blackberry-froyo-500.jpg">
+    </div>
+    <div class="box">
+      <img src="http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public/image/recipes/ck/08/05/italian-panini-ck-1734338-x.jpg?itok=v8SkqDcY">
+    </div>
+    <div class="box">
+      <img src="https://images.blogthings.com/thelattearttest/latte-8.jpg">
+    </div>
+    <div class="box">
+      <img src="http://a.dilcdn.com/bl/wp-content/uploads/sites/8/2010/11/Chocolate-Chip-Icebox-Cookies.jpg">
+    </div>
+    <div class="box">
+      <img src="img/logo.png">
+    </div>
+  </div>
+
+    <div class="menu">
+    <br>
+    <hr>
+    <br>
+
+    <h3>Sweets & Candy</h3>
+
+    <p><i>A candy wall stocked with everyone's favorite candy from then and now available by the pound. Plus a special selection showcasing our favorite local chocolates and other varieties of candy.</i></p>
+
+    <h3>Frozen Treats</h3>
+
+    <p><i>Frozen Yogurts, Dippin Dots, Italian sodas, and Root beer floats!</i></p>
+
+    <h3>Lunch</h3>
+
+    <p><i>Seeking something savory to go with all our sweetness, Panini grilled sandwiches served daily from 11am - 2pm.</i></p>
+
+    <h3>Coffee & Tea</h3>
+
+    <p><i>Full expresso bar using locally roasted beans from Verve Coffee Roasters in Santa Cruz and award winning teas from Art of Tea. Coffee beans and bulk teas are available to take home too.</i></p>
+
+    <h3>Baked Goods</h3>
+
+    <p><i>Our assorted baked goods are made from the finest ingredients from Icing on the Cake - Los Gatos and Kelley's French Bakery - Santa Cruz. Plus we bake fresh croissants and chocolate chip cookies everyday!</i></p>
+
+    <h3>Merchandise</h3>
+
+    <p><i>Gift cards, Shirts, and Hats available too!</i></p>
+
+    <br>
+    <hr>
+    <br>
+    <br>
+
+  </div>
+
+  <div class="outro">
+    <p>Oh, and the best part is that all proceeds will go to the local public schools! We want very much to give back to our community and to support the education of our children. We are also using natural products and eco friendly supplies wherever possible, including solar energy. Finally, we are partnering with local suppliers across the board for all of our products.<br>
+    
+    We hope to see you at the Sweet Shop!</p>
+  </div>
+  </div>
+  <div class="pad"> 
+</div>
+
+
+<!-- Script Style -->
+
+  <script>
+  $('.menu-button').on('click', function() {
+    $(this).removeClass('show-menu-button');
+    $('.overlay').slideDown('slow');
+  });
+
+  $('.close-button').on('click', function() {
+    $('.overlay').slideUp('slow');
+    $('.menu-button').addClass('show-menu-button');
+  });
+</script>
+
+</div>
+</body>
+
+</html> 
+
+

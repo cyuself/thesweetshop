@@ -8,16 +8,32 @@ html, body, h1, h2, h3 {
 html {font-size; 10px; }
 h1 { font-size: 1.8rem; }
 h2 { font-size: 1.2rem; }
+h3 { font-size: 1.4rem; 
+    color: #BE0D13; 
+    font-family: 'mission script';}
 p { font-size: .8rem; }
 
 body { font-family: 'avenir'; }
 
 /* BODY */
 
+.pad {
+  background-color: white;
+  height: 20px;
+}
+
+.background {
+  background-color: #F2EFE7;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
 body {
   line-height: 1.5;
   font-family: 'avenir';
-  background-color: #F2EFE7;
+  background-color: #;
   overflow: auto;
 }
 
@@ -28,10 +44,7 @@ body {
 }
 
 .banner {
-  margin-left: 15%;
-  margin-top: 30px;
-  width: 60%;
-  min-width: 70%;
+  width: 100%;
 }
 
 /* Original Header
@@ -57,13 +70,14 @@ body {
  */
 
 .hello {
-  text-align: left;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
 }
 
 /* Container */
 
 .container {
-  width: 70%;
+  width: 90%;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -71,6 +85,23 @@ body {
 .intro {
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+.menu {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.description {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 500px;
+  margin-bottom: 30px;
 }
 
 /* Old Intro 
