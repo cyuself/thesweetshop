@@ -25,7 +25,8 @@ body { font-family: 'avenir'; }
 .background {
   background-color: #F2EFE7;
   width: 80%;
-  max-width: 1000px;
+  max-width: 900px;
+  min-width: 320px;
   margin: 0 auto;
 
 }
