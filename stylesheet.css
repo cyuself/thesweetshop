@@ -22,13 +22,19 @@ body { font-family: 'avenir'; }
   height: 20px;
 } */
 
+.navbar {
+  width: 80%;
+  max-width: 900px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
 .background {
   background-color: #F2EFE7;
   width: 80%;
   max-width: 900px;
   min-width: 320px;
   margin: 0 auto;
-
 }
 
 body {
