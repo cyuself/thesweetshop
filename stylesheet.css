@@ -5,15 +5,25 @@ html, body, h1, h2, h3 {
 }
 
 /*Typography*/
+
+  @font-face {
+      font-family: mission-script;
+      src: url(mission-script.woff);
+  }
+
 html {font-size; 10px; }
 h1 { font-size: 1.8rem; }
 h2 { font-size: 1.2rem; }
 h3 { font-size: 1.4rem; 
     color: #BE0D13; 
-    font-family: 'mission-script.woff'; }
+    font-family: 'mission-script.woff'; 
+    }
 p { font-size: .8rem; }
 
 body { font-family: 'avenir'; }
+
+  
+
 
 /* BODY 
 
