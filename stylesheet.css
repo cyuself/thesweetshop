@@ -253,7 +253,7 @@ header nav li a {
 
 header .menu-button {
   /*float: right;*/
-  position: fixed;
+  position: absolute;
   top: -50px;
   right: -50px;
   width: 200px;
