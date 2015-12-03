@@ -14,12 +14,24 @@ html, body, h1, h2, h3 {
 
   mission-script-webfont.woff */
 
+@font-face {
+    font-family: 'mission_scriptregular';
+    src: url('mission-script-webfont.eot');
+    src: url('mission-script-webfont.eot?#iefix') format('embedded-opentype'),
+         url('mission-script-webfont.woff2') format('woff2'),
+         url('mission-script-webfont.woff') format('woff'),
+         url('mission-script-webfont.ttf') format('truetype'),
+         url('mission-script-webfont.svg#mission_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {font-size; 10px; }
 h1 { font-size: 1.8rem; }
 h2 { font-size: 1.2rem; }
 h3 { font-size: 1.4rem; 
     color: #BE0D13; 
-    font-family: 'avenir'; 
+    font-family: 'mission-script-webfont.woff'; 
     }
 p { font-size: .8rem; }
 
