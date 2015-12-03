@@ -6,17 +6,20 @@ html, body, h1, h2, h3 {
 
 /*Typography*/
 
+/*
   @font-face {
       font-family: mission-script-webfont;
       src: url(mission-script-webfont.woff);
-  }
+  } 
+
+  mission-script-webfont.woff */
 
 html {font-size; 10px; }
 h1 { font-size: 1.8rem; }
 h2 { font-size: 1.2rem; }
 h3 { font-size: 1.4rem; 
     color: #BE0D13; 
-    font-family: 'mission-script-webfont.woff'; 
+    font-family: 'avenir'; 
     }
 p { font-size: .8rem; }
 
