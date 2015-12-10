@@ -139,16 +139,18 @@ hr {
 */
 
 .boxes {
+
 }
 
 .box {
   border: none;
-  margin: 0px;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
 .box img {
-  width: 95%;
+  width: 100%;
+  padding: 7px;
 }
 
 .outro {
@@ -254,8 +256,8 @@ header nav li a {
 header .menu-button {
   /*float: right;*/
   position: fixed;
-  top: -50px;
-  right: -50px;
+  top: -70px;
+  right: -35px;
   width: 200px;
   height: 200px;
   background: url('img/menubar.png') no-repeat center; 
